@@ -3,7 +3,6 @@
 > **Hack The Box | Linux | Web Application Security | API Security | Privilege Escalation**
 
 ![Platform](https://img.shields.io/badge/Platform-Hack%20The%20Box-9FEF00)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-blue)
 ![Assessment](https://img.shields.io/badge/Assessment-Vulnerability%20Assessment-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
@@ -68,7 +67,6 @@ The assessment highlights how multiple weaknesses can be chained together to tra
 | Target           | TwoMillion                                  |
 | Platform         | Hack The Box                                |
 | Operating System | Linux                                       |
-| Difficulty       | Easy                                        |
 | Assessment Type  | Vulnerability Assessment / Penetration Test |
 | Assessment Date  | 2026-08-05                                  |
 | Report Modified  | 2026-08-17                                  |
