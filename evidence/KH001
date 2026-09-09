@@ -1,0 +1,8 @@
+```
+Nmap scan report for 10.129.68.164
+Host is up (0.084s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+```
