@@ -60,6 +60,4 @@ The assessment methodology was informed by commonly used penetration-testing and
 
 This repository is intended for educational and professional portfolio purposes.
 
-Sensitive information, credentials, session tokens, private keys, and other secrets discovered during the assessment should be removed or redacted before public publication.
-
 All exploitation activities were performed within the authorized Hack The Box environment.
