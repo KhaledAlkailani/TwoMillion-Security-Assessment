@@ -77,35 +77,20 @@ the authenticated user's existing privileges.
 ## Attack Flow
 
 ```text
-┌──────────────────────┐
+
 │ Low-Privileged User  │
-└──────────┬───────────┘
            │
-           ▼
-┌──────────────────────┐
 │ Authenticated API    │
-└──────────┬───────────┘
            │
-           ▼
-┌─────────────────────────────┐
 │ /admin/settings/update      │
-└──────────┬──────────────────┘
            │
-           ▼
-┌─────────────────────────────┐
 │ Modify security-sensitive   │
 │ authorization attribute     │
-└──────────┬──────────────────┘
            │
-           ▼
-┌──────────────────────┐
 │ is_admin = 1         │
-└──────────┬───────────┘
            │
-           ▼
-┌──────────────────────┐
+
 │ Administrative Access│
-└──────────────────────┘
 ```
 
 ---
