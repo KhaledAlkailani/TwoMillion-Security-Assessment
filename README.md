@@ -525,29 +525,6 @@ Ubuntu rates the vulnerability **High**, with a CVSS 3 score of **7.8**. Ubuntu'
 
 A low-privileged local user can potentially escalate privileges to root on an affected system.
 
-### Attack Chain
-
-```text
-Web Application
-      │
-      ▼
-Command Injection
-      │
-      ▼
-Application Shell
-      │
-      ▼
-Local User
-      │
-      ▼
-Vulnerable OverlayFS
-      │
-      ▼
-CVE-2023-0386
-      │
-      ▼
-ROOT
-```
 
 ---
 
