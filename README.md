@@ -18,42 +18,30 @@ The primary attack path consisted of:
 
 ```text
 External Reconnaissance
-        │
-        ▼
+        ↓
 Web Enumeration
-        │
-        ▼
+        ↓
 Hidden Invite Functionality
-        │
-        ▼
+        ↓
 API Discovery
-        │
-        ▼
+        ↓
 Authenticated User Access
-        │
-        ▼
+        ↓
 Broken Authorization
-        │
-        ▼
+        ↓
 Administrative Privilege
-        │
-        ▼
+        ↓
 OS Command Injection
-        │
-        ▼
+        ↓
 Remote Shell
-        │
-        ▼
+        ↓
 Local Enumeration
-        │
-        ▼
+        ↓
 Outdated Linux Kernel
-        │
-        ▼
+        ↓
 CVE-2023-0386
-        │
-        ▼
-ROOT
+        ↓
+       ROOT
 ```
 
 The assessment highlights how multiple weaknesses can be chained together to transform seemingly limited application functionality into complete system compromise.
@@ -139,9 +127,9 @@ The assessment emphasized identifying vulnerabilities based on their **security 
 | 17:42 | Administrative functionality enumerated    |
 | 18:22 | Command injection identified               |
 | 18:50 | Remote shell obtained                      |
-| 20:xx | Local privilege escalation analysis        |
-| 21:xx | Kernel vulnerability identified            |
-| 21:xx | Root access achieved                       |
+| 20:59 | Local privilege escalation analysis        |
+| 21:20 | Kernel vulnerability identified            |
+| 21:47 | Root access achieved                       |
 
 ---
 
@@ -303,20 +291,15 @@ This transformed a normal authenticated account into an administrative account.
 
 ```text
 Normal User
-    │
-    ▼
+    ↓
 Authenticated API
-    │
-    ▼
+    ↓
 /api/v1/admin/settings/update
-    │
-    ▼
+    ↓
 Privilege Attribute Manipulation
-    │
-    ▼
+    ↓
 is_admin = 1
-    │
-    ▼
+    ↓
 Administrative Access
 ```
 
@@ -432,26 +415,19 @@ Potential consequences include:
 
 ```text
 Authenticated User
-        │
-        ▼
+       ↓
 Broken Authorization
-        │
-        ▼
+       ↓
 Administrator
-        │
-        ▼
+       ↓
 VPN Generation Endpoint
-        │
-        ▼
+       ↓
 Unsanitized username
-        │
-        ▼
+       ↓
 Shell command execution
-        │
-        ▼
+       ↓
 OS Command Injection
-        │
-        ▼
+       ↓
 Remote Code Execution
 ```
 
