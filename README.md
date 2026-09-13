@@ -248,7 +248,7 @@ The next phase focused on determining whether administrative endpoints correctly
 
 ---
 
-# 8. Finding — Broken Authorization
+# 8. Finding ⟨Broken Authorization⟩ ⟨⟩
 
 ## Finding ID
 
@@ -347,7 +347,7 @@ Administrator
 
 ---
 
-# 9. Finding — OS Command Injection
+# 9. Finding ⟨OS Command Injection⟩
 
 ## Finding ID
 
@@ -473,7 +473,7 @@ rather than constructing:
 
 ---
 
-# 10. Finding — Outdated Linux Kernel
+# 10. Finding ⟨Outdated Linux Kernel⟩
 
 ## Finding ID
 
@@ -601,7 +601,7 @@ A vulnerability that appears limited in isolation can become a critical security
 
 # 14. Remediation Priority
 
-## Priority 1 — Eliminate Command Injection
+## Priority 1 > Eliminate Command Injection
 
 Replace shell-based execution with safe process execution.
 
@@ -609,7 +609,7 @@ Replace shell-based execution with safe process execution.
 
 ---
 
-## Priority 2 — Fix Authorization Controls
+## Priority 2 > Fix Authorization Controls
 
 Administrative endpoints must perform authorization checks server-side.
 
@@ -627,7 +627,7 @@ must never be controlled directly by ordinary users.
 
 ---
 
-## Priority 3 — Patch the Operating System
+## Priority 3 > Patch the Operating System
 
 Update the Linux kernel to a supported security-patched version.
 
@@ -643,7 +643,7 @@ Maintain an ongoing vulnerability-management process covering:
 
 ---
 
-## Priority 4 — Improve API Security
+## Priority 4 > Improve API Security
 
 Implement:
 
@@ -681,7 +681,7 @@ A seemingly insignificant API endpoint exposed additional application functional
 
 An application privilege parameter exposed an authorization weakness.
 
-A server-side command execution flaw transformed application access into operating-system access.
+A server side command execution flaw transformed application access into operating system access.
 
 Finally, local enumeration revealed that the underlying operating system provided another escalation path.
 
@@ -715,8 +715,8 @@ Each stage provided the information or access required for the next.
 
 # 17. References
 
-* Hack The Box — TwoMillion
-* Ubuntu Security — CVE-2023-0386
+* Hack The Box : TwoMillion
+* Ubuntu Security : CVE-2023-0386
 * MITRE CVE Database
 * Linux Kernel Security Advisories
 
